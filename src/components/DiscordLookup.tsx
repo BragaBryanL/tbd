@@ -430,14 +430,13 @@ export default function DiscordLookup() {
                       <div className="flex items-center gap-3 mb-2">
                         <div className="w-10 h-10 rounded-full overflow-hidden">
                           <img 
-                            src="https://api.dicebear.com/7.x/avataaars/svg?seed=user1" 
+                            src="/hwa.laziaa-avatar.png" 
                             alt="Random User 1"
                             style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                           />
                         </div>
                         <div>
-                          <p className="text-sm font-medium" style={{color: 'white'}}>Alex Thompson</p>
-                          <p className="text-xs" style={{color: '#99AAB5'}}>@alexthompson</p>
+                          <p className="text-sm font-medium" style={{color: 'white'}}>cwpcakepaws ♰</p>
                         </div>
                       </div>
                       <div className="flex items-center gap-2">
@@ -450,14 +449,13 @@ export default function DiscordLookup() {
                       <div className="flex items-center gap-3 mb-2">
                         <div className="w-10 h-10 rounded-full overflow-hidden">
                           <img 
-                            src="https://api.dicebear.com/7.x/avataaars/svg?seed=user2" 
+                            src="/nhatphong-avatar.png" 
                             alt="Random User 2"
                             style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                           />
                         </div>
                         <div>
-                          <p className="text-sm font-medium" style={{color: 'white'}}>Sarah Chen</p>
-                          <p className="text-xs" style={{color: '#99AAB5'}}>@sarahchen</p>
+                          <p className="text-sm font-medium" style={{color: 'white'}}>Maksha次 JR</p>
                         </div>
                       </div>
                       <div className="flex items-center gap-2">
@@ -470,14 +468,13 @@ export default function DiscordLookup() {
                       <div className="flex items-center gap-3 mb-2">
                         <div className="w-10 h-10 rounded-full overflow-hidden">
                           <img 
-                            src="https://api.dicebear.com/7.x/avataaars/svg?seed=user3" 
+                            src="/toboyushime-avatar.png" 
                             alt="Random User 3"
                             style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                           />
                         </div>
                         <div>
-                          <p className="text-sm font-medium" style={{color: 'white'}}>Mike Johnson</p>
-                          <p className="text-xs" style={{color: '#99AAB5'}}>@mikejohnson</p>
+                          <p className="text-sm font-medium" style={{color: 'white'}}>TsumyVeil</p>
                         </div>
                       </div>
                       <div className="flex items-center gap-2">
