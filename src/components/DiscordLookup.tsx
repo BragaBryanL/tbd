@@ -395,6 +395,20 @@ export default function DiscordLookup() {
                   </div>
                 </div>
 
+                <div className="p-4 rounded-lg border" style={{backgroundColor: 'rgba(240, 71, 71, 0.1)', borderColor: 'rgba(240, 71, 71, 0.3)'}}>
+                  <div className="flex items-center gap-2 mb-2">
+                    <svg className="w-4 h-4" style={{color: '#F04747'}} fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
+                      <path fillRule="evenodd" d="M4 5a2 2 0 012-2 1 1 0 000 2H6a2 2 0 100 4h2a2 2 0 100-4h-.09A1.65 1.65 0 008 4.65a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 010-2.83 2 2 0 012.83 0l.06.06a1.65 1.65 0 001.82.33H12a1.65 1.65 0 001-1.51V3a2 2 0 012-2 2 2 0 012 2v.09a1.65 1.65 0 001.51 1H18a2 2 0 012 2v2a1.65 1.65 0 00-1 1.51V9a1.65 1.65 0 001.51 1H18a2 2 0 012 2v2a1.65 1.65 0 00-1 1.51V16a2 2 0 01-2 2 2 2 0 01-2-2v-.09a1.65 1.65 0 00-1-1.51H12a1.65 1.65 0 00-1 1.51V16a2 2 0 01-2 2 2 2 0 01-2-2v-.09a1.65 1.65 0 00-1-1.51H6a2 2 0 01-2-2v-2a1.65 1.65 0 001-1.51V11a1.65 1.65 0 00-1-1.51V8a2 2 0 012-2z" clipRule="evenodd" />
+                    </svg>
+                    <span style={{color: '#F04747'}} className="text-sm font-medium">Case Reports</span>
+                  </div>
+                  <div>
+                    <p style={{color: '#99AAB5'}} className="text-xs mb-1">REPORTED BY USERS</p>
+                    <p className="text-sm font-medium" style={{color: 'white'}}>23 different users has filed a case with this user</p>
+                  </div>
+                </div>
+
                 <div className="p-4 rounded-lg border" style={{backgroundColor: 'rgba(88, 101, 242, 0.1)', borderColor: 'rgba(88, 101, 242, 0.3)'}}>
                   <div className="flex items-center gap-2 mb-2">
                     <svg className="w-4 h-4" style={{color: '#5865F2'}} fill="currentColor" viewBox="0 0 20 20">
@@ -405,6 +419,72 @@ export default function DiscordLookup() {
                   <div>
                     <p style={{color: '#99AAB5'}} className="text-xs mb-1">WALLET ADDRESS</p>
                     <p className="font-mono text-sm" style={{color: 'white'}}>1PtMqhdbJAVYXXAY96EFjcHwVbusz1pmb</p>
+                  </div>
+                </div>
+
+                {/* Random Profiles Section */}
+                <div className="mt-6">
+                  <h4 className="font-medium mb-3" style={{color: 'white'}}>Related Profiles</h4>
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div className="p-3 rounded-lg border" style={{backgroundColor: 'rgba(58, 58, 64, 0.3)', borderColor: 'rgba(88, 101, 242, 0.2)'}}>
+                      <div className="flex items-center gap-3 mb-2">
+                        <div className="w-10 h-10 rounded-full overflow-hidden">
+                          <img 
+                            src="https://api.dicebear.com/7.x/avataaars/svg?seed=user1" 
+                            alt="Random User 1"
+                            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                          />
+                        </div>
+                        <div>
+                          <p className="text-sm font-medium" style={{color: 'white'}}>Alex Thompson</p>
+                          <p className="text-xs" style={{color: '#99AAB5'}}>@alexthompson</p>
+                        </div>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <div className="w-2 h-2 rounded-full" style={{backgroundColor: '#F04747'}}></div>
+                        <span className="text-xs" style={{color: '#F04747'}}>High Risk</span>
+                      </div>
+                    </div>
+
+                    <div className="p-3 rounded-lg border" style={{backgroundColor: 'rgba(58, 58, 64, 0.3)', borderColor: 'rgba(88, 101, 242, 0.2)'}}>
+                      <div className="flex items-center gap-3 mb-2">
+                        <div className="w-10 h-10 rounded-full overflow-hidden">
+                          <img 
+                            src="https://api.dicebear.com/7.x/avataaars/svg?seed=user2" 
+                            alt="Random User 2"
+                            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                          />
+                        </div>
+                        <div>
+                          <p className="text-sm font-medium" style={{color: 'white'}}>Sarah Chen</p>
+                          <p className="text-xs" style={{color: '#99AAB5'}}>@sarahchen</p>
+                        </div>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <div className="w-2 h-2 rounded-full" style={{backgroundColor: '#FAA61A'}}></div>
+                        <span className="text-xs" style={{color: '#FAA61A'}}>Medium Risk</span>
+                      </div>
+                    </div>
+
+                    <div className="p-3 rounded-lg border" style={{backgroundColor: 'rgba(58, 58, 64, 0.3)', borderColor: 'rgba(88, 101, 242, 0.2)'}}>
+                      <div className="flex items-center gap-3 mb-2">
+                        <div className="w-10 h-10 rounded-full overflow-hidden">
+                          <img 
+                            src="https://api.dicebear.com/7.x/avataaars/svg?seed=user3" 
+                            alt="Random User 3"
+                            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                          />
+                        </div>
+                        <div>
+                          <p className="text-sm font-medium" style={{color: 'white'}}>Mike Johnson</p>
+                          <p className="text-xs" style={{color: '#99AAB5'}}>@mikejohnson</p>
+                        </div>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <div className="w-2 h-2 rounded-full" style={{backgroundColor: '#43B581'}}></div>
+                        <span className="text-xs" style={{color: '#43B581'}}>Low Risk</span>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
