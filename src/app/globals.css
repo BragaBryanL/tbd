@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #23272A;
+    color: white;
+  }
+}
+
+@layer components {
+  .discord-input {
+    background-color: #2C2F33;
+    border: 1px solid rgba(153, 170, 181, 0.3);
+    border-radius: 0.5rem;
+    padding: 0.75rem 1rem;
+    color: white;
+    transition: border-color 0.2s;
+  }
+  
+  .discord-input::placeholder {
+    color: #99AAB5;
+  }
+  
+  .discord-input:focus {
+    outline: none;
+    border-color: #5865F2;
+  }
+  
+  .discord-card {
+    background-color: #2C2F33;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    border: 1px solid rgba(153, 170, 181, 0.2);
+  }
+  
+  .discord-button {
+    background-color: #5865F2;
+    color: white;
+    font-weight: 500;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.2s;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .discord-button:hover {
+    background-color: rgba(88, 101, 242, 0.9);
+  }
+  
+  /* Admin System Specific Styles */
+  .admin-header {
+    border-bottom: 1px solid rgba(153, 170, 181, 0.1);
+    padding-bottom: 1rem;
+  }
+  
+  .admin-card {
+    background: linear-gradient(135deg, rgba(44, 47, 51, 0.8), rgba(35, 39, 42, 0.9));
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(153, 170, 181, 0.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .status-indicator {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+  }
+  
+  .admin-badge {
+    font-size: 0.625rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+}
